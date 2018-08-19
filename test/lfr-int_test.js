@@ -56,7 +56,6 @@ describe("lfr-ride", function() {
       return req
         .post("/step2")
         .type("form")
-        .send({ phone: "+15555558383" })
         .expect("Location", "/lyft_auth")
         .expect(302);
     });
