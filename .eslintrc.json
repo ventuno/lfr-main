@@ -1,0 +1,23 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "extends": ["plugin:prettier/recommended"],
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "error",
+      "require-jsdoc": ["error", {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": false,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": false,
+          "FunctionExpression": false
+        }
+      }]
+    }
+}

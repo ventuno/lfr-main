@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "mocha"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "mocha/no-exclusive-tests": "error"
+  }
+}
